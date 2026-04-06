@@ -1,0 +1,29 @@
+# Build
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Dados locais
+dados/*.gpkg
+dados/*.db
+dados/*.log
+dados/*_backup_*
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Dependências empacotadas
+lib/
